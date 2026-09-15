@@ -1,0 +1,23 @@
+{
+  "name": "audit-trail-backend-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio backend demo for API design, audit logging, hashing, and optional Supabase/OpenAI integration.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "adm-zip": "^0.5.16",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "openai": "^6.17.0"
+  }
+}
